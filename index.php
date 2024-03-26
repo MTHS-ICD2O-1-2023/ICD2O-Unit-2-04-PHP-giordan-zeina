@@ -37,14 +37,14 @@
         <br />
         <div class="page-content">Enter the base and height in cm.</div>
         <div class="page-content-php">
-          <form action="answer.php" method="POST">
+          <form action="answer.php" method="GET">
           <div class="mdl-textfield mdl-js-textfield">
             <!-- input pattern attribute -->
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="base-of-triangle"
+              name="base-of-triangle"
             />
             <!-- mdl-textfield__label -->
             <label class="mdl-textfield__label" for="base-of-triangle"
@@ -60,7 +60,7 @@
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="height-of-triangle"
+              name="height-of-triangle"
             />
             <!-- mdl-textfield__label -->
             <label class="mdl-textfield__label" for="height-of-triangle"
