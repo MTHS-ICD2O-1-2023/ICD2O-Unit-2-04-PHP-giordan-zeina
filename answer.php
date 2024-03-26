@@ -28,16 +28,16 @@
           <img src="./images/area_of_trinagle.png" alt="triangle image" width="250" />
         </div>
         <div class="page-content-php">
-          <div id="area">
+          <div id="user-info">
             <?php
-            $baseOftriangle = $_GET["base-of-triangle"];
+            $baseOfTriangle = $_GET["base-of-triangle"];
             $heightOfTriangle = $_GET["height-of-triangle"];
 
             // process
             $area = $baseOfTriangle * $heightOfTriangle * 0.5;
 
             // output
-            echo "If a triangle has base = " . $baseOftriangle . " cm and the height = " . $heightOfTriangle . " cm:";
+            echo "If a triangle has base = " . $baseOfTriangle . " cm and the height = " . $heightOfTriangle . " cm:";
             echo "<br />";
             echo "<br />";
             echo "The area of the rectangle is " . $area . " cm².";

@@ -36,6 +36,8 @@
         </div>
         <br />
         <div class="page-content">Enter the base and height in cm.</div>
+        <div class="page-content-php">
+          <form action="answer.php" method="POST">
           <div class="mdl-textfield mdl-js-textfield">
             <!-- input pattern attribute -->
             <input
@@ -76,7 +78,7 @@
         <br />
         <br>
         <div class="page-content-answer">
-          <div id="area"></div>
+          <div id="user-info"></div>
         </div>
       </br>
       </main>
