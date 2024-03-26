@@ -28,7 +28,7 @@
           <img src="./images/area_of_trinagle.png" alt="triangle image" width="250" />
         </div>
         <div class="page-content-php">
-          <div id="user-info">
+          <div id="area">
             <?php
             $baseOftriangle = $_GET["base-of-triangle"];
             $heightOfTriangle = $_GET["height-of-triangle"];
